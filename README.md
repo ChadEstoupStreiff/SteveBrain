@@ -1,6 +1,15 @@
 # SteveBrain
 
+IN PROGRESS 🏗️
 
+Aims to create a bot who you can talk to and will interact with a Minecraft world.
+Keypoints:
+- Speech recognition
+- Minecraft Mod
+- LLM
+- Prompt engineering
+- Structured outputs
+- Fine tuning
 
 ## Brain
 It's a Ollama server that host LLM model.
@@ -15,3 +24,4 @@ It's a Minecraft mod that link the minecraft player to the ears and brain.
 
 ## Minecraft server
 It's a Minecraft server in 1.20.6 if you don't have one :)
+=======
