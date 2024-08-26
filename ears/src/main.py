@@ -5,7 +5,7 @@ from model import WhisperModel
 from interface import EarsInterface
 import tkinter as tk
 
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.INFO)
 
 
 model = WhisperModel()

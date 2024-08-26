@@ -1,3 +1,24 @@
+mc_server/server/banned-ips.json
+mc_server/server/banned-players.json
+mc_server/server/commands.yml
+mc_server/server/help.yml
+mc_server/server/ops.json
+mc_server/server/permissions.yml
+mc_server/server/usercache.json
+mc_server/server/whitelist.json
+mc_server/server/bundler
+mc_server/server/logs
+mc_server/server/plugins
+mc_server/server/world
+mc_server/server/world_nether
+mc_server/server/world_the_end
+
+brain/data
+
+*.idea
+*.DS_Store
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

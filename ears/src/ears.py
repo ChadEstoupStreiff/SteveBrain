@@ -5,6 +5,8 @@ import numpy as np
 import pyaudio
 from model import WhisperModel
 
+import requests
+
 
 class AudioStreamer:
     def __init__(self) -> None:
@@ -80,3 +82,5 @@ class AudioStreamer:
 
             logging.info(f"Detected sentence: {text}")
             self.sentences.append(text)
+
+            requests.get(f"http://localhost:6749/api/data?message={text}")
